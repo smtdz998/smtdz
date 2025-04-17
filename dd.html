@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تحميل تطبيق S500 RAT</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: #f4f4f9;
+      direction: rtl;
+      text-align: center;
+      color: #333;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #fff;
+      color: #4a90e2;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background: #e6e6e6;
+    }
+
+    .app-image {
+      max-width: 300px;
+      margin-top: 30px;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #222;
+      color: white;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+
+      .app-image {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>تحميل تطبيق S500 RAT</h1>
+    <p>اضغط على الزر أدناه لتحميل التطبيق مباشرة</p>
+    <a href="https://www.mediafire.com/file/ztyodjzhelsz8kv/S500_RAT_smt_dz_send_to_shinoby.rar/file" class="download-btn" id="downloadButton">
+      تحميل التطبيق
+    </a>
+    <br/>
+    <img src="https://via.placeholder.com/300x500?text=S500+RAT" alt="صورة التطبيق" class="app-image" />
+  </header>
+
+  <footer>
+    &copy; 2025 S500 RAT - جميع الحقوق محفوظة.
+  </footer>
+
+  <script>
+    document.getElementById('downloadButton').addEventListener('click', function () {
+      console.log('تم الضغط على زر التحميل');
+    });
+  </script>
+
+</body>
+</html>
